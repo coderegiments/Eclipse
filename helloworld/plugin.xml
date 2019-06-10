@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.viewActions">
+      <viewContribution
+            id="helloworld.viewContribution1"
+            targetID="helloworld.viewContribution1">
+      </viewContribution>
+   </extension>
+   <extension
+         point="org.eclipse.ui.viewActions">
+      <viewContribution
+            id="helloworld.viewContribution2"
+            targetID="helloworld.viewContribution2">
+      </viewContribution>
+   </extension>
+
+</plugin>
